@@ -1,0 +1,91 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #D2F7FF;
+    color: #20214f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #52057B;
+    color: white;
+}
+
+header .logo {
+    text-align: center;
+    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('https://img.freepik.com/foto-gratis/render-3d-fondo-neon-abstracto-lineas-brillantes-pared-oscura-iluminada-lampara-luminiscente-azul_379823-747.jpg?size=626&ext=jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.recomendaciones-grid, .artistas-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card, .artista {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background: #52057B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    color: #4CAF50;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
